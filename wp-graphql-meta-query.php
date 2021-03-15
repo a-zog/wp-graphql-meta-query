@@ -264,8 +264,12 @@ class MetaQuery {
 					'description' => __( 'Custom field key', 'wp-graphql' ),
 				],
 				'value'   => [
-					'type'        => ['String','list_of' => 'String'],
-					'description' => __( 'Custom field value', 'wp-graphql' ),
+					'type'        => 'String',
+					'description' => __('Custom field value', 'wp-graphql'),
+				],
+				'valueArray'   => [
+					'type'        => ['list_of' => 'String'],
+					'description' => __('Custom field value', 'wp-graphql'),
 				],
 				'compare' => [
 					'type'        => $type_name . 'MetaCompareEnum',
