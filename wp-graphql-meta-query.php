@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WPGraphQL Meta Query
  * Plugin URI: https://github.com/wp-graphql/wp-graphql-meta-query
- * Description: Adds Meta Query support for the WPGraphQL plugin. Requires WPGraphQL version 0.0.23
+ * Description: Adds Meta Query support for the WPGraphQL plugin (Custom version - adapted to Jamaity). Requires WPGraphQL version 0.0.23
  * or newer.
  * Author: Jason Bahl
  * Author URI: http://www.wpgraphql.com
