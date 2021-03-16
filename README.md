@@ -1,6 +1,8 @@
-# WPGraphQL Meta Query
+# WPGraphQL Meta Query (CUSTOM)
 This plugin adds Meta_Query support to the WP GraphQL Plugin for postObject query args.
 
+# CUSTOM VERSION:
+Added valueArray so it can handle "BETWEEN" with valueArray: [2000, 23000]
 
 ## Why is this an extension and not part of WPGraphQL?
 
